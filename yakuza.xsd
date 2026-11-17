@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="description" type="richTextType"/>
+    <xs:element name="link" type="linkType"/>
+    <xs:element name="image" type="imageType"/>
+    <xs:attribute name="id" type="shortTextType"/>
+
+    <xs:element name="project">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:normalizedString"/>
+                <xs:element name="introduction" type="sectionType"/>
+                <xs:element name="soundtrack" type="sectionType"/>
+                <xs:element name="symbols" type="sectionType"/>
+                <xs:element name="morals" type="sectionType"/>
+
+                <xs:element name="characters">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="character" type="characterType" minOccurs="1" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="games">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="game" type="gameType" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gallery">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="image" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="characterType">
+        <xs:sequence>
+            <xs:group ref="characterNameGroup"/>
+            <xs:element name="nicknames" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nickname" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:group ref="mediaGroup"/>
+            <xs:element name="roles" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="role" type="roleType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="organisation" type="organisationType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="family" type="familyType" minOccurs="0" maxOccurs="1"/>
+            <xs:element ref="description"/>
+            <xs:element name="tattoo" type="tattooType" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="franchise">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="100"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="opinion">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="100"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="alive" type="logicType" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="gameType">
+        <xs:sequence>
+            <xs:element name="title" type="longTextType"/>
+            <xs:element name="year" type="yearType"/>
+            <xs:group ref="mediaGroup"/>
+            <xs:element name="platforms" type="platformListType"/>
+            <xs:element name="protagonists">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="protagonist" type="protagonistType" minOccurs="1" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element ref="description"/>
+            <xs:element name="completed" type="logicType"/>
+            <xs:element name="opinion" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="100"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute ref="id" use="required"/>
+        <xs:attribute name="type" type="releaseType" use="required"/>
+        <xs:attribute name="global" type="logicType"/>
+    </xs:complexType>
+
+    <xs:complexType name="protagonistType">
+        <xs:attribute name="ref" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tattooType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="explanation" type="richTextType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="familyType">
+        <xs:sequence>
+            <xs:element name="member" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="relation" type="relationType" use="required"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="roleType" mixed="true">
+        <xs:attribute name="active" type="logicType" use="required"/>
+        <xs:attribute name="organisation" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="organisationType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element ref="link"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="sectionType">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element name="text" type="richTextType"/>
+            <xs:element ref="image"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="imageType">
+        <xs:sequence>
+            <xs:element name="source">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="300"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="description">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="0"/>
+                        <xs:maxLength value="300"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute ref="id" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="linkType" mixed="true">
+        <xs:attribute name="target" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="richTextType" mixed="true">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="link"/>
+            <xs:element name="emphasis" type="xs:string"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:simpleType name="releaseType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mainline"/>
+            <xs:enumeration value="spinoff"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="logicType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="relationType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="father"/>
+            <xs:enumeration value="mother"/>
+            <xs:enumeration value="sister"/>
+            <xs:enumeration value="brother"/>
+            <xs:enumeration value="daughter"/>
+            <xs:enumeration value="son"/>
+            <xs:enumeration value="wife"/>
+            <xs:enumeration value="husband"/>
+            <xs:enumeration value="divorced"/>
+            <xs:enumeration value="step-sister"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="yearType">
+        <xs:restriction base="xs:gYear">
+            <xs:minInclusive value="2005"/>
+            <xs:maxInclusive value="2027"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="shortTextType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="longTextType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:group name="characterNameGroup">
+        <xs:sequence>
+            <xs:element name="name" type="shortTextType"/>
+            <xs:element name="surname" type="shortTextType"/>
+        </xs:sequence>
+    </xs:group>
+
+    <xs:group name="mediaGroup">
+        <xs:choice>
+            <xs:sequence>
+                <xs:element name="image" type="imageType"/>
+                <xs:element ref="link"/>
+            </xs:sequence>
+            <xs:sequence>
+                <xs:element ref="link"/>
+                <xs:element name="image" type="imageType"/>
+            </xs:sequence>
+        </xs:choice>
+    </xs:group>
+
+    <xs:simpleType name="numericIdType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="textIdType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-z0-9]+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="identifierType">
+        <xs:union memberTypes="numericIdType textIdType"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="platformListType">
+        <xs:list itemType="platformType"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="platformType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="PS2"/>
+            <xs:enumeration value="PS3"/>
+            <xs:enumeration value="PS4"/>
+            <xs:enumeration value="PS5"/>
+            <xs:enumeration value="PC"/>
+            <xs:enumeration value="PSP"/>
+            <xs:enumeration value="X360"/>
+            <xs:enumeration value="XONE"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Games</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar_wide">
+                    <a href="./index.html">
+                        Home
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house preview-icon"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                    </a>
+                    <div class="menu_lists">
+                        <a class="list_parent">Lists <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list preview-icon"><path d="M3 5h.01"/><path d="M3 12h.01"/><path d="M3 19h.01"/><path d="M8 5h13"/><path d="M8 12h13"/><path d="M8 19h13"/></svg></a>
+                        <ul class="list_children">
+                            <li>
+                                <a href="./characters.html">
+                                    Characters
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-star preview-icon"><path d="M16.051 12.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.867l-1.156-1.152a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z"/><path d="M2 21a8 8 0 0 1 6.778-7.905"/><path d="M8.927 12.885a5 5 0 1 1 6.061-4.535"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a id="active" href="./games.html">
+                                    Games
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2 preview-icon"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./gallery.html">
+                                    Gallery
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-images preview-icon"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16"/><path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2"/><circle cx="13" cy="7" r="1" fill="currentColor"/><rect x="8" y="2" width="14" height="14" rx="2"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="./contact.html">
+                        Contact
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail preview-icon"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                    </a>
+                </div>
+                <div class="navbar_compact">
+                    <a href="./index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house preview-icon"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                    </a>
+                    <a href="./characters.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-star preview-icon"><path d="M16.051 12.616a1 1 0 0 1 1.909.024l.737 1.452a1 1 0 0 0 .737.535l1.634.256a1 1 0 0 1 .588 1.806l-1.172 1.168a1 1 0 0 0-.282.866l.259 1.613a1 1 0 0 1-1.541 1.134l-1.465-.75a1 1 0 0 0-.912 0l-1.465.75a1 1 0 0 1-1.539-1.133l.258-1.613a1 1 0 0 0-.282-.867l-1.156-1.152a1 1 0 0 1 .572-1.822l1.633-.256a1 1 0 0 0 .737-.535z"/><path d="M2 21a8 8 0 0 1 6.778-7.905"/><path d="M8.927 12.885a5 5 0 1 1 6.061-4.535"/></svg>
+                    </a>
+                    <a class="active" href="./games.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2 preview-icon"><line x1="6" x2="10" y1="11" y2="11"/><line x1="8" x2="8" y1="9" y2="13"/><line x1="15" x2="15.01" y1="12" y2="12"/><line x1="18" x2="18.01" y1="10" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>
+                    </a>
+                    <a href="./gallery.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-images preview-icon"><path d="m22 11-1.296-1.296a2.4 2.4 0 0 0-3.408 0L11 16"/><path d="M4 8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2"/><circle cx="13" cy="7" r="1" fill="currentColor"/><rect x="8" y="2" width="14" height="14" rx="2"/></svg>
+                    </a>
+                    <a href="./contact.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail preview-icon"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main id="main_elements">
+            <div class="elements">
+                <h1 class="elements_header">
+                    Mainline
+                </h1>
+                <div class="element" id="y1">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/c/c0/Y1_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/c/c0/Y1_-_Logo.png" alt="Logo of Yakuza (2005)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza" target="_blank">
+                                Yakuza [2005]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        The debut release of SEGA's <a href="https://en.wikipedia.org/wiki/Toshihiro_Nagoshi" target="_blank">Toshihiro Nagoshi</a>. Based in a 1995/2005 Tokyo's fictional entertainment district <a href="https://en.wikipedia.org/wiki/Kamurocho">Kamurocho</a>, we follow the story of young <a href="./characters.html#kiryu">Kiryu Kazuma</a>, who seeks for answers to many mysteries and tragedies. After serving ten years in prison, the man needs to find himself in a changed world of yakuza.
+                    </div>
+                </div>
+                <div class="element" id="y2">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/0/09/Y2_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/0/09/Y2_-_Logo.png" alt="Logo of Yakuza 2 (2006)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_2" target="_blank">
+                                Yakuza 2 [2006]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A year after the emotional events of the previous installment, <a href="./characters.html#kiryu">The Dragon of Dojima</a> has to face new challenges, as the great danger arises from Osaka's <a href="https://yakuza.fandom.com/wiki/Omi_Alliance">Omi Alliance</a>. With the help of <a href="./characters.html#daigo">Daigo Dojima</a> and a later addition of <a href="./characters.html#sayama">Kaoru Sayama</a>, they face new threats and enemies, such as the <a href="https://yakuza.fandom.com/wiki/Jingweon_Mafia">Jingweon Mafia</a>. Includes a lot of twists and shocking discoveries.
+                    </div>
+                </div>
+                <div class="element" id="y3">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/1/1f/Y3_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/1/1f/Y3_-_Logo.png" alt="Logo of Yakuza 3 (2009)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_3" target="_blank">
+                                Yakuza 3 [2009]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        Following the events of 2006, <a href="./characters.html#kiryu">Kazuma</a> comes to a conclusion to leave <a href="https://yakuza.fandom.com/wiki/Kamurocho">Kamurocho</a> with his adoptive daugher, <a href="./characters.html#haruka">Haruka</a>. They leave Tokyo for Okinawa, where they open up an orphanage, <a href="https://en.wikipedia.org/wiki/Morning_Glory_Orphanage">Morning Glory</a>. Thrown into a dirty business, the former yakuza must help his friend - <a href="./characters.html#daigo">Daigo Dojima</a> - to stop <a href="./characters.html#mine">Yoshitaka Mine</a> from tragic consequences of his actions.
+                    </div>
+                </div>
+                <div class="element" id="y4">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/1/14/Y4_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/1/14/Y4_-_Logo.png" alt="Logo of Yakuza 4 (2010)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_4" target="_blank">
+                                Yakuza 4 [2010]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A soft reset in the timeline happens with the introduction of three new protagonists: <a href="./characters.html#akiyama">Shun Akiyama</a>, <a href="./characters.html#tanimura">Masayoshi Tanimura</a> and <a href="./characters.html#saejima">Taiga Saejima</a>. Four unique personalities with a lot in common bound together to fight with corrupt and disheartening opponents. Can a washed-up yakuza, money launderer, local detective and prison escapee save <a href="https://en.wikipedia.org/wiki/Kamurocho">Kamurocho</a>?
+                    </div>
+                </div>
+                <div class="element" id="y5">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/e/e0/Y5_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/e/e0/Y5_-_Logo.png" alt="Logo of Yakuza 5 (2012)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_5" target="_blank">
+                                Yakuza 5 [2012]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        With the addition of <a href="./characters.html#shinada">Tatsuo Shinada</a>, we receive a much deeper and complex story of five protagonsits: <a href="./characters.html#shinada">Tatsuo Shinada</a>, <a href="./characters.html#kiryu">Kiryu Kazuma</a>, <a href="./characters.html#akiyama">Shun Akiyama</a>, <a href="./characters.html#saejima">Taiga Saejima</a> and <a href="./characters.html#haruka">Haruka Sawamura</a>. Possibly one of the most well-written entries on the list. A retired baseballer, former yakuza, money launderer, prisoner and an idol -  will everyone overcome their biggest struggles and achieve their <b>dream</b>?
+                    </div>
+                </div>
+                <div class="element" id="y0">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/7/75/Y0_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/7/75/Y0_-_Logo.png" alt="Logo of Yakuza 0 (2015)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_0" target="_blank">
+                                Yakuza 0 [2015]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        The series' prequel set in 1988 <a href="https://yakuza.fandom.com/wiki/Kamurocho">Kamurocho</a> and <a href="https://yakuza.fandom.com/wiki/Sotenbori">Sotenbori</a>, following the story of two protagonists: <a href="./characters.html#kiryu">Kiryu Kazuma</a> and <a href="./characters.html#majima">Goro Majima</a>. After being framed with murder, <a href="./characters.html#kiryu">Kiryu</a> leaves the <a href="https://yakuza.fandom.com/wiki/Dojima_Family" target="_blank">Dojima Family</a> in search of the answer for the complicated story of the <a href="https://yakuza.fandom.com/wiki/Empty_Lot" target="_blank">Empty Lot</a>. The <a href="./characters.html#majima">one-eyed assassin</a> however tries to repair the damage he has done in the past. He receives a chance to fix his mistakes, but everything changes once he meets the victim.
+                    </div>
+                </div>
+                <div class="element" id="yk1">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/e/ef/YK1_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/e/ef/YK1_-_Logo.png" alt="Logo of Yakuza Kiwami (2016)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_Kiwami" target="_blank">
+                                Yakuza Kiwami [2016]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A remake of the 2005 release of <a href="./games.html#y1">Yakuza</a>, featuring a whole new game engine and refreshed arrangement. With the addition of a huge amount of mechanics, the game receives a whole new life to itself.
+                    </div>
+                </div>
+                <div class="element" id="y6">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/0/00/Y6_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/0/00/Y6_-_Logo.png" alt="Logo of Yakuza 6 (2016)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_6" target="_blank">
+                                Yakuza 6 [2016]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A personal story of <a href="./characters.html#kiryu">Kiryu Kazuma</a>, who seeks justice for his adoptive daughter - <a href="./characters.html#haruka">Haruka Sawamura</a> - who was a victim of a dramatic car accident. With shocking discoveries, the <a href="./characters.html#kiryu">Dragon of Dojima</a> has to face unexpected challenges and twists, including the discovery of a government secret, which consequences would be irreverseble.
+                    </div>
+                </div>
+                <div class="element" id="yk2">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/1/12/YK2_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/1/12/YK2_-_Logo.png" alt="Logo of Yakuza Kiwami 2 (2017)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_Kiwami_2" target="_blank">
+                                Yakuza Kiwami 2 [2017]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        After the success of the previous remake, the decision has been made to release a refreshed version of the 2006 <a href="./games.html#y2">Yakuza 2</a>. However, this time RGG has decided to "play it safe" with minor and soft changes in contrary with the first <a href="./games.html#yk1">Kiwami</a>. Built on the recently introduced Dragon Engine.
+                    </div>
+                </div>
+                <div class="element" id="y7">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/0/0a/YLAD_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/0/0a/YLAD_-_Logo.png" alt="Logo of Yakuza: Like a Dragon (2020)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza:Like_a_Dragon" target="_blank">
+                                Yakuza: Like a Dragon [2020]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A soft reboot of the series, with a new protagonist <a href="./characters.html#ichiban">Ichiban Kasuga</a> and a new gameplay style based on the J-RPG (turn-based roleplay) genre. The story follows a young man - <a href="./characters.html#ichiban">Ichiban Kasuga</a> - born and raised in a soapland in Kamurocho. After his life was saved by <a href="https://yakuza.fandom.com/wiki/Masumi_Arakawa" target="_blank">Masumi Arakawa</a>, a patriarch of the <a href="https://yakuza.fandom.com/wiki/Arakawa_Family">Arakawa Family</a>, young man decides to dedicate his life to serve his "hero". After being asked to to take the fall for <a href="https://yakuza.fandom.com/wiki/Jo_Sawashiro">Jo Sawashiro</a> - family's captain - <a href="./characters.html#ichiban">Kasuga</a> comes to a conclusion to repay his debt. After serving eighteen years in prison, he faces confusing changes in the world - including the <a href="https://yakuza.fandom.com/wiki/Omi_Alliance">Omi Alliance</a> control of Tokyos' <a href="https://yakuza.fandom.com/wiki/Kamurocho" target="_blank">Kamurocho</a>. With new friends on his road, <a href="./characters.html#ichiban">Ichiban</a> has to find the reason of all his troubles.
+                    </div>
+                </div>
+                <div class="element" id="y8">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/5/54/LAD8_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/5/54/LAD8_-_Logo.png" alt="Logo of Like a Dragon: Infinite Wealth (2024)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Infinite_Wealth" target="_blank">
+                                Like a Dragon: Infinite Wealth [2024]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A sequel of <a href="./games.html#ylad">Yakuza: Like a Dragon</a> with dual protagonists: <a href="./characters.html#kiryu">Kiryu Kazuma</a> and <a href="./characters.html#ichiban">Ichiban Kasuga</a>. With <a href="./characters.html#ichiban">Ichiban</a> seeking his mother, he travels to Honolulu, where he meets <a href="./characters.html#kiryu">Kazuma</a>. With similiar, yet different objectives, they connect their powers and help each other out. The grand finale consists of <a href="./characters.html#ichiban">Kasuga</a> fighting inequality and a great danger, while a terminally ill <a href="./characters.html#kiryu">Kiryu</a> stands face-to-face with his past. Probably the largest storyline in the series.
+                    </div>
+                </div>
+                <div class="element" id="k3">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/a/ae/YK3_-_Logo.svg" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/a/ae/YK3_-_Logo.svg" alt="Logo of Yakuza Kiwami 3 (2026)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza_Kiwami_3" target="_blank">
+                                Yakuza Kiwami 3 [2026]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A controversial remake of the 2009 <a href="./games.html#y3">Yakuza 3</a>, which received a modern engine with it's revelations. The game received mixed-to-negative opinions due to a massive change in the storyline, including a few recasts. The game came out with an additional "mini-game", <a href="./games.html#dt">Dark Ties</a>.
+                    </div>
+                </div>
+                <div class="element" id="dt">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/f/f1/DT_-_Logo.svg" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/f/f1/DT_-_Logo.svg" alt="Logo of Dark Ties (2026)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Dark_Ties" target="_blank">
+                                Dark Ties [2026]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A bonus game included with <a href="./games.html#yk3">Yakuza Kiwami 3</a>, focusing on the main game's antagonist - <a href="./characters.html#mine">Yoshitaka Mine</a> - which is the main protagonist of this product. The release explains the backstory of the main villain, specifically before the main game's timeline. The finale connects with the main game's finale. 
+                    </div>
+                </div>
+                <h1 class="elements_header">
+                    Spinoff
+                </h1>
+                <div class="element" id="rggk">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/7/7c/RGGK%21_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/7/7c/RGGK%21_-_Logo.png" alt="Logo of Ryu Ga Gotoku Kenzan! (2008)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Ryu_Ga_Gotoku_Kenzan!" target="_blank">
+                                Ryu Ga Gotoku Kenzan! [2008]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        First ever spin-off release from the Yakuza franchise. The game is set in historical <a href="https://yakuza.fandom.com/wiki/Kyoto" target="_blank">Kyoto</a>, Japan during the Edo period in 1605. The story follows the parts of <a href="https://en.wikipedia.org/wiki/Miyamoto_Musashi" target="_blank">Miyamoto Musashi</a>'s life. It is one of the two games based on historical figures and heritage of Japan. Kenzan has never been released outside of Japan, which makes it's status even more "iconic".
+                    </div>
+                </div>
+                 <div class="element" id="k1">
+                    <div class="element_info">
+                        <a href="https://cdn2.steamgriddb.com/logo_thumb/9670c7ffe205da4e538326c9691fa4f2.png" target="_blank">
+                            <img class="element_game_photo" src="https://cdn2.steamgriddb.com/logo_thumb/9670c7ffe205da4e538326c9691fa4f2.png" alt="Logo of Kurohyou: Ryu Ga Gotoku Shinsho (2010)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Kurohyou:_Ryu_Ga_Gotoku_Shinsho" target="_blank">
+                                Kurohyou: Ryu Ga Gotoku Shinsho [2010]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        An exclusive release for Sony PlayStation Portable. Just like the previous spin-off, Black Panther was never released outside of Japan. Produced by "Def Jam: Fight For NY"'s AKI Corporation, the game received a similiar gameplay style, focused more on one-on-one brawling, unlike the other Yakuza releases. The game features an original (in contrary with other franchise's releases) set of animated cutscenes.
+                    </div>
+                </div>
+                <div class="element" id="yds">
+                    <div class="element_info">
+                        <a href="https://cdn2.steamgriddb.com/logo/0a4bcba1b83ac7ae756cbe8ff5aa46fd.png" target="_blank">
+                            <img class="element_game_photo" src="https://cdn2.steamgriddb.com/logo/0a4bcba1b83ac7ae756cbe8ff5aa46fd.png" alt="Logo of Yakuza: Dead Souls (2011)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Yakuza:_Dead_Souls" target="_blank">
+                                Yakuza: Dead Souls [2011]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A Sony Play Station 3 exclusive release, who saw a global debut. Dead Souls takes place in a non-canon timeline after the events of <a href="./games.html#y4">Yakuza 4</a>. It features a different style of gameplay - a third-person shooter. Four playable characters: <a href="./characters.html#kiryu">Kiryu Kazuma</a>, <a href="./characters.html#ryuji">Ryuji Goda</a>, <a href="./characters.html#akiyama">Shun Akiyama</a> and <a href="./characters.html#kiryu">Goro Majima</a>. The release follows the story of a zombie apocalypse that revolves around the protagonists trying to keep them and their loved ones safe while putting an end to this great danger.
+                    </div>
+                </div>
+                <div class="element" id="k2">
+                    <div class="element_info">
+                        <a href="https://cdn2.steamgriddb.com/logo/60438b39047b64189d7cc0a6f7dd5df8.png" target="_blank">
+                            <img class="element_game_photo" src="https://cdn2.steamgriddb.com/logo/60438b39047b64189d7cc0a6f7dd5df8.png" alt="Logo of Kurohyo 2: Ryu Ga Gotoku Ashura-hen (2012)"/>
+
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Kurohyou_2:_Ryu_Ga_Gotoku_Ashura-hen" target="_blank">
+                                Kurohyo 2: Ryu Ga Gotoku Ashura-hen [2012]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        Sequel of the first <a href="./games.html#k1">Kurohyou</a> game. Just like the previous installment, it is a PSP and Japan exclusive game. Includes the same exact unique features of the previous release.
+                    </div>
+                </div>
+                <div class="element" id="rggi">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/2/21/RGGI%21_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/2/21/RGGI%21_-_Logo.png" alt="Logo of Ryu Ga Gotoku Ishin! (2014)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Ryu_Ga_Gotoku_Ishin!" target="_blank">
+                                Ryu Ga Gotoku Ishin! [2014]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A second release based on historical figures and stories. Japan exclusive, later released globally with the remake titled <a href="./games.html#ladi">Like a Dragon: Ishin!</a>. Ishin focuses on the <a href="https://en.wikipedia.org/wiki/Bakumatsu" target="_blank">Bakumatsu Period</a> in Japan. The story focuses on the story of <a href="https://yakuza.fandom.com/wiki/Sakamoto_Ryoma" target="_blank">Sakamoto Ryoma</a>, who seeks justice for the death of his mentor - <a href="https://yakuza.fandom.com/wiki/Yoshida_Toyo" target="_blank">Yoshida Toyo</a>.
+                    </div>
+                </div>
+                <div class="element" id="jg1">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/3/30/J1_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/3/30/J1_-_Logo.png" alt="Logo of Judgment (2018)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Judgment" target="_blank">
+                                Judgment [2018]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A debut release of the successful spin-off series. Focusing on the life of a private detective, <a href="./characters.html#yagami">Takayuki Yagami</a>, who tries to solve the mystery of the "the Mole" - a murderer and threat to <a href="https://yakuza.fandom.com/wiki/Kamurocho" target="_blank">Kamurocho</a>. On his way to truth, <a href="./characters.html#yagami">Yagami</a> finds shocking and disstressing discoveries.
+                    </div>
+                </div>
+                <div class="element" id="jg2">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/0/05/LJ_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/0/05/LJ_-_Logo.png" alt="Logo of Lost Judgment (2021)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Lost_Judgment" target="_blank">
+                                Lost Judgment [2021]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        The sequel to the successful debut of <a href="./games.html#jg1">Judgment</a>. This time, <a href="./characters.html#yagami">Yagami</a>, tries to uncover the dark story of <a href="https://yakuza.fandom.com/wiki/Seiryo_High_School" target="_blank">Seiryo High School</a>. With tragic and visual discoveries, detective has to face the brutality of the world.
+                    </div>
+                </div>
+                <div class="element" id="tkf">
+                    <div class="element_info">
+                        <a href="https://cdn2.steamgriddb.com/logo_thumb/ec3cd5de78196a9a6c8bd1c020f7f43e.png" target="_blank">
+                            <img class="element_game_photo" src="https://cdn2.steamgriddb.com/logo_thumb/ec3cd5de78196a9a6c8bd1c020f7f43e.png" alt="Logo of The Kaito Files (2022)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Lost_Judgment#The_Kaito_Files" target="_blank">
+                                The Kaito Files [2022]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A downloadable content to <a href="./games.html#jg2">Lost Judgment</a>. This time, we follow the story of <a href="./characters.html#kaito">Masaharu Kaito</a> - co-worker of <a href="./characters.html#yagami">Yagami</a> - who searches for <a href="https://yakuza.fandom.com/wiki/Mikiko_Sadamoto" target="_blank">Mikiko Sadamoto</a> alongside his alleged son, <a href="https://yakuza.fandom.com/wiki/Jun_Sadamoto" target="_blank">Jun Sadamoto</a>.
+                    </div>
+                </div>
+                <div class="element" id="ladi">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/3/37/LADI%21_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/3/37/LADI%21_-_Logo.png" alt="Logo of Like a Dragon: Ishin! (2023)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Ishin!" target="_blank">
+                                Like a Dragon: Ishin! [2023]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A remake of the 2014 <a href="./games.html#rggi">Ryu Ga Gotoku Ishin!</a>. The game has been boosted with a few major gameplay changes, including multiple fighting styles, virtue system and special attributes.
+                    </div>
+                </div>
+                <div class="element" id="ladg">
+                    <div class="element_info">
+                        <a href="https://cdn2.steamgriddb.com/logo/f3dcc63e62d341ce8ab1f53c40cf230c.png" target="_blank">
+                            <img class="element_game_photo" src="https://cdn2.steamgriddb.com/logo/f3dcc63e62d341ce8ab1f53c40cf230c.png" alt="Logo of Like a Dragon Gaiden: The Man Who Erased His Name (2023)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Like_a_Dragon_Gaiden:_The_Man_Who_Erased_His_Name" target="_blank">
+                                Like a Dragon Gaiden: The Man Who Erased His Name [2023]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        An interquel between <a href="./games.html#y7">Yakuza: Like a Dragon</a> and <a href="./games.html#y8">Like a Dragon: Infinite Wealth</a>, focusing on the story of <a href=characters.html#kiryu>Joryu</a>. The purpose of this release is to explain the further story and reasoning behind the "death" of <a href="characters.html#kiryu">Kiryu Kazuma</a>. The game's finale connects with the finale of <a href="./games.html#y7">Yakuza: Like a Dragon</a>. An emotional rollercoaster.
+                    </div>
+                </div>
+                <div class="element" id="ladpyih">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/b/b9/LADPYIH_-_Logo.png" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/b/b9/LADPYIH_-_Logo.png" alt="Logo of Like a Dragon: Pirate Yakuza in Hawaii (2025)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Pirate_Yakuza_in_Hawaii" target="_blank">
+                                Like a Dragon: Pirate Yakuza in Hawaii [2025]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        A spin-off focusing on the confusing story of <a href="./characters.html#majima">Goro Majima</a>, who suffers from amnesia. The game is somewhat connected to the story of the previous major release - <a href="./games.html#y8">Like a Dragon: Infinite Wealth</a>.
+                    </div>
+                </div>
+                <div class="element" id="sth">
+                    <div class="element_info">
+                        <a href="https://static.wikia.nocookie.net/yakuza/images/4/4f/Logo_stranger-than-heaven.svg" target="_blank">
+                            <img class="element_game_photo" src="https://static.wikia.nocookie.net/yakuza/images/4/4f/Logo_stranger-than-heaven.svg" alt="Logo of Stranger Than Heaven (2027)"/>
+                        </a>
+                        <h2>
+                            <a href="https://yakuza.fandom.com/wiki/Stranger_Than_Heaven" target="_blank">
+                                STRANGER THAN HEAVEN [2027]
+                            </a>
+                        </h2>
+                    </div>
+                    <div class="element_about">
+                        An upcoming major release, serving as a possible prequel to the whole <a href="https://yakuza.fandom.com/wiki/Like_a_Dragon" target="_blank">Yakuza / Like a Dragon</a> series. Currently, we know that the game will feature five cities: <a href="https://en.wikipedia.org/wiki/Kokurakita-ku,_Kitaky%C5%ABsh%C5%AB" target="_blank">Kokura (1915)</a>, <a href="https://en.wikipedia.org/wiki/Kure,_Hiroshima" target="_blank">Kure (1929)</a>, <a href="https://en.wikipedia.org/wiki/Minami-ku_(Sakai)" target="_blank">Minami (1943)</a>, <a href="https://en.wikipedia.org/wiki/Atami" target="_blank">Atami (1951)</a>, <a href="https://en.wikipedia.org/wiki/Shinjuku" target="_blank">Shinjuku (1965)</a>. We follow the story of a half-Japanese boy named Makoto Daito. With the story spanning over 60 years of action, it seems to be the longest-paced game from the studio.  
+                    </div>
+                </div>
+                <h1>Summary</h1>
+                <table>
+                    <tr id="table_headers">
+                        <th id="table_first_col">Title</th>
+                        <th id="table_second_col">Year</th>
+                        <th id="table_third_col">Played</th>
+                        <th id="table_fourth_col">Opinion</th>
+                    </tr>
+                    <tr class="devider">
+                        <th colspan="4">Mainline</th>
+                    </tr>
+                    <tr>
+                        <th>Yakuza</th>
+                        <td>2005</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Major debut of an aspiring franchise</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 2</th>
+                        <td>2006</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Perfectly written</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 3</th>
+                        <td>2009</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Unique atmosphere</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 4</th>
+                        <td>2010</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Revolutionary idea of having four protagonists</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 5</th>
+                        <td>2012</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Now with five protagonists!</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 0</th>
+                        <td>2015</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A flashback to the origins of Kiryu Kazuma and Majima Goro</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza Kiwami</th>
+                        <td>2015</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Faithful remake of the original debut game with great additions</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza 6</th>
+                        <td>2016</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A very deep and emotional story line</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza Kiwami 2</th>
+                        <td>2017</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A safe play with poor adaptations, unsatisfying remake</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza: Like a Dragon</th>
+                        <td>2020</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Soft (and successful) reboot of the franchise, introducing and focusing on a new protagonist</td>
+                    </tr>
+                    <tr>
+                        <th>Like a Dragon: Infinite Wealth</th>
+                        <td>2024</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Connecting two protagonists and two generations into a one, major happening</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza Kiwami 3</th>
+                        <td>2026</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Unsatysfing and unneccessary changes in the plot</td>
+                    </tr>
+                    <tr>
+                        <th>Dark Ties</th>
+                        <td>2026</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A small, bonus game showing the backstory of Yakuza Kiwami 3 main antagonist, Yoshitaka Mine</td>
+                    </tr>
+                    <tr class="devider">
+                        <th colspan="4">Spinoffs</th>
+                    </tr>
+                    <tr>
+                        <th>Ryu Ga Gotoku Kenzan!</th>
+                        <td>2008</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></td>
+                        <td>[Haven't played]</td>
+                    </tr>
+                    <tr>
+                        <th>Kurohyou: Ryu Ga Gotoku Shinsho</th>
+                        <td>2010</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></td>
+                        <td>[Haven't played]</td>
+                    </tr>
+                    <tr>
+                        <th>Yakuza: Dead Souls</th>
+                        <td>2011</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A fun and absurd story focused on an apocalypse-ruined Kamurocho</td>
+                    </tr>
+                    <tr>
+                        <th>Kurohyo 2: Ryu Ga Gotoku Ashura-hen</th>
+                        <td>2012</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></td>
+                        <td>[Haven't played]</td>
+                    </tr>
+                    <tr>
+                        <th>Ryu Ga Gotoku Ishin!</th>
+                        <td>2014</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></td>
+                        <td>[Haven't played]</td>
+                    </tr>
+                    <tr>
+                        <th>Judgment</th>
+                        <td>2018</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Huge debut of a greatly written "side" project</td>
+                    </tr>
+                    <tr>
+                        <th>Lost Judgment</th>
+                        <td>2021</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>One of the best projects from RGG Studios</td>
+                    </tr>
+                    <tr>
+                        <th>The Kaito Files</th>
+                        <td>2022</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>Great, yet short content addition for Lost Judgment</td>
+                    </tr>
+                    <tr>
+                        <th>Like a Dragon: Ishin!</th>
+                        <td>2023</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>A remake of a 2014 version of the game with a few unnecessary mechanics</td>
+                    </tr>
+                    <tr>
+                        <th>Like a Dragon Gaiden: The Man Who Erased His Name</th>
+                        <td>2023</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>An emotional add-on to the story of Yakuza: Like a Dragon</td>
+                    </tr>
+                    <tr>
+                        <th>Like a Dragon Gaiden: Pirate Yakuza in Hawaii</th>
+                        <td>2025</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check preview-icon"><path d="M20 6 9 17l-5-5"/></svg></td>
+                        <td>An enjoyable side game with a bare connection to the main plot</td>
+                    </tr>
+                    <tr>
+                        <th>STRANGER THAN HEAVEN</th>
+                        <td>2027</td>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x preview-icon"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></td>
+                        <td>Looks promising pre-release</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            Beware of the spoilers
+        </footer>
+    </body>
+</html>

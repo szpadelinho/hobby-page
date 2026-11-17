@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="yakuza.xsd">
+    <title>The Like a Dragon experience</title>
+    <introduction>
+        <text>This website is dedicated to one of my most favourite video game franchises of all time - Yakuza (originally called "Ryu Ga Gotoku" [Like a Dragon] in Japan). It is without a doubt a one of a kind collection of unique aesthetic and quite original storyline, including the gameplay style. It consists of 23 entries, including base products and remakes. Since the first release, which happened in the year 2005, we follow the story of a man - <link target="./characters.html#kiryu">Kiryu Kazuma</link>. He is the main protagonist of the whole series, who occurs in most of the games as the character we follow. The main timeline spans over 40 years. With that being said, the franchise points out the social and common problems in Japan due to the specific time period or cultural differations. The series became internationally successful after almost 10 years, with the release of <link target="./games.html#y0">Yakuza 0</link>. It was a crucial point for the series, which allowed to "open" the series to the west, where previously some of the games have not even received an international release, with some of the reasons being the cultural difference and possible "cultural misunderstanding". The franchise itself became a huge "meme" itself, due to the humorous and absurd nature of some situations, including the cutscenes. Features a "beat-em-up" style of gameplay with a "sparkle" of RPG. However, since the release of the game <link target="./games.html#y7">Yakuza: Like a Dragon</link>, the mainline gameplay style has changed to J-RPG, similiar to other franchises like Persona.</text>
+        <image>
+            <source>https://static.wikia.nocookie.net/yakuza/images/a/ae/Y2_Kiryu_render.png</source>
+            <description>Kiryu Kazuma from Yakuza 2</description>
+        </image>
+    </introduction>
+    <soundtrack>
+        <image>
+            <source>https://static.wikia.nocookie.net/yakuza/images/3/3d/2d_yk_kigae_haruka03.png</source>
+            <description>Haruka Sawamura in her idol suit from Yakuza 5</description>
+        </image>
+        <text>However, one of the most important elements of the series is the soundtrack itself. The production is heavily praised for the original approach and unique connection, creating a one of a kind atmopshere. With the help of legendary SEGA composer <link target="https://en.wikipedia.org/wiki/Hidenori_Shoji">Hidenori Shoji</link> and other notable composers, such as <link target="https://www.imdb.com/name/nm4912589/">Mitsuharu Fukuyama</link>, who created probably the biggest song in the franchise - <link target="https://www.youtube.com/watch?v=g3jCAyPai2Y">Baka Mitai</link> (eng. I was a fool). That concludes the fact, that the whole soundtrack in the franchise is original, apart from a few exceptions, where actual licensed songs were included in the game. Although most of these were only in the japanese versions of the release, it still should be a notable mention. Production ranges from genres like rock or metal, jazz, groove, ballads, enka, j-pop to even synthwave, disco and dubstep.</text>
+    </soundtrack>
+    <symbols>
+        <text>Through the series, we follow the stories of multiple protagonists. Even though every single person is unique, their problems are universal. Some of the stories hold universal truths or morals. Most notably, the series points out how self-destructive a human ego can be. At the same time, we can witness the strength of friendship, which can sound childish, yet realistically true.</text>
+        <image>
+            <source>https://static.wikia.nocookie.net/yakuza/images/5/5d/Shun_Akiyama.png</source>
+            <description>Shun Akiyama of Yakuza 4</description>
+        </image>
+    </symbols>
+    <morals>
+        <image>
+            <source>https://static.wikia.nocookie.net/yakuza/images/f/f9/LADIW_-_Character_Render_-_Daigo_Dojima.png</source>
+            <description>Daigo Dojima in his fisherman suit from Like a Dragon: Infinite Wealth</description>
+        </image>
+        <text>Some of the morals include traditional values, like family, which is probably the most important symbol. With the main protagonist being an orphan, including his future adoptive daughter, we realize what it means to be a family and what it takes to create one. This is also factual due to the fact <link target="./characters.html#kiryu">Kiryu</link> had his own orphanage in Okinawa. Although, with organisations like the Tojo Clan we also come to a realization how important respect is in our daily life.</text>
+    </morals>
+    <characters>
+        <character id="kiryu" alive="yes">
+            <name>Kiryu</name>
+            <surname>Kazuma</surname>
+            <nicknames>
+                <nickname>Dragon of Dojima</nickname>
+                <nickname>Taichi Suzuki</nickname>
+                <nickname>Joryu</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Kazuma_Kiryu">
+                Kazuma Kiryu
+            </link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/9/9e/2d_cf_jin_kiryu_okinawa.png</source>
+                <description>Image of Kiryu Kazuma</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Tojo Clan">Fourth chairman</role>
+                <role active="yes" organisation="Morning Glory Orphanage">Owner</role>
+                <role active="no" organisation="Four Shine">Manager</role>
+                <role active="no" organisation="Nagasu Taxi">Taxi driver</role>
+                <role active="yes" organisation="Daidoji faction">Agent</role>
+            </roles>
+            <organisation>
+                <name>Dojima Family</name>
+                <link target="https://yakuza.fandom.com/wiki/Dojima_Family">Dojima Family</link>
+            </organisation>
+            <family>
+                <member relation="father">Shintaro Kazama</member>
+                <member relation="brother">Akira Nishikiyama</member>
+                <member relation="daughter">Haruka Sawamura</member>
+            </family>
+            <description>
+                Kazuma appeared in every mainline franchise game. Raised by Shintaro Kazama (of the <link target="https://yakuza.fandom.com/wiki/Dojima_Family">Dojima Family</link>), since Kiryu was an orphan himself.
+            </description>
+            <tattoo>
+                <title>Oryu/Yinglong</title>
+                <explanation>A symbol of power, wisdom, protection and balance in Japanese culture.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Greatly written</opinion>
+        </character>
+        <character id="haruka" alive="yes">
+            <name>Haruka</name>
+            <surname>Sawamura</surname>
+            <link target="https://yakuza.fandom.com/wiki/Haruka_Sawamura">Haruka Sawamura</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/9/99/Y3_-_Character_Render_-_Haruka_Sawamura_%28Tokyo%29.png</source>
+                <description>Image of Haruka Sawamura</description>
+            </image>
+            <roles>
+                <role active="yes" organisation="Morning Glory Orphanage">Helper</role>
+                <role active="no" organisation="Dyna Chair">Idol</role>
+            </roles>
+            <family>
+                <member relation="father">Kiryu Kazuma</member>
+                <member relation="mother">Yumi Sawamura</member>
+                <member relation="son">Haruto Sawamura</member>
+            </family>
+            <description>
+                A lost soul who tries to find her place on earth. Due to complicated life along a former yakuza, Haruka matured as a child.
+            </description>
+            <franchise>Yakuza</franchise>
+            <opinion>Important symbol</opinion>
+        </character>
+        <character id="majima" alive="yes">
+            <name>Goro</name>
+            <surname>Majima</surname>
+            <nicknames>
+                <nickname>Mad Dog of Shimano</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Goro_Majima">Goro Majima</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/a/a2/Y3R-Render-Majima.png</source>
+                <description>Image of Goro Majima</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Shimano Family">Captain</role>
+                <role active="no" organisation="Majima Family">Patriarch</role>
+                <role active="no" organisation="Majima Construction">Founder/CEO</role>
+                <role active="no" organisation="Tojo Clan">Vice-chairman</role>
+            </roles>
+            <organisation>
+                <name>Shimano Family</name>
+                <link target="https://yakuza.fandom.com/wiki/Shimano_Family">Shimano Family</link>
+            </organisation>
+            <family>
+                <member relation="divorced">Mirei Park</member>
+                <member relation="brother">Taiga Saejima</member>
+            </family>
+            <description>
+                Majima is one of the original characters, which occured in every single mainline game since the release of the first volume.
+            </description>
+            <tattoo>
+                <title>Hannya</title>
+                <explanation>The Hannya mask is commonly believed to depict women who have turned into demons as a result of being consumed by rage, envy or sorrow. Snakes are often a symbol of rebirth and transformation due to their tendency to shed their skin.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Unique character</opinion>
+        </character>
+        <character id="sayama" alive="yes">
+            <name>Kaoru</name>
+            <surname>Sayama</surname>
+            <nicknames>
+                <nickname>Yakuza Huntress</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Kaoru_Sayama">Kaoru Sayama</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/a/a0/2d_cf_jin_sayama.png</source>
+                <description>Image of Kaoru Sayama</description>
+            </image>
+            <roles>
+                <role active="yes" organisation="Osaka Prefectural Police's Sotenbori District Organized Crime Division">Lead detective</role>
+            </roles>
+            <organisation>
+                <name>Osaka Prefectural Police</name>
+                <link target="https://yakuza.fandom.com/wiki/Osaka_Prefectural_Police">Osaka Prefectural Police</link>
+            </organisation>
+            <family>
+                <member relation="father">Jiro Kawara</member>
+                <member relation="brother">Ryuji Goda</member>
+            </family>
+            <description>
+                Studied programming and cybersecurity, hence joining the tech crimes unit at the age of 20. Sayama has a very deep and complicated background. Throughout the most important task of her career, she came to known her actual descendancy and family story. (Un)knowingly connected to <link target="./characters.html#ryuji">Ryuji Goda</link>. Love interest of <link target="./characters.html#kiryu">Kiryu Kazuma</link>
+            </description>
+            <franchise>Yakuza</franchise>
+            <opinion>Poorly executed idea</opinion>
+        </character>
+        <character id="ryuji" alive="no">
+            <name>Ryuji</name>
+            <surname>Goda</surname>
+            <nicknames>
+                <nickname>Dragon of Kansai</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Ryuji_Goda">Ryuji Goda</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/9/92/Y2_Ryuji_render.png</source>
+                <description>Image of Ryuji Goda</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Shimano Family">Captain</role>
+                <role active="no" organisation="Majima Family">Patriarch</role>
+                <role active="no" organisation="Majima Construction">Founder/CEO</role>
+                <role active="no" organisation="Tojo Clan">Vice-chairman</role>
+            </roles>
+            <organisation>
+                <name>Omi Alliance</name>
+                <link target="https://yakuza.fandom.com/wiki/Omi_Alliance">Omi Alliance</link>
+            </organisation>
+            <family>
+                <member relation="sister">Kaoru Sayama</member>
+            </family>
+            <description>
+                Also known as the "Dragon of Kansai", which sparked some controversy in contrary with <link target="./characters.html#kiryu">Kazuma's "Dragon of Dojima"</link>. Ryuji believed only one dragons belongs in Japan. Second patriarch of the <link target="https://yakuza.fandom.com/wiki/Go-Ryu_Clan">Go-Ryu Clan</link>, an <link target="https://yakuza.fandom.com/wiki/Omi_Alliance" >Omi Alliance</link> subsidiary. Famous for his strength and height, as well as his blonde hair and huge scar on his face. (Un)familiar with his actual descendancy and family story. His tattoo is the legendary gold dragon, Huang Long, who lords over the four gods of the cardinal directions, representing Ryuji's ambitions to rule over all of Japan's criminal underworld.
+            </description>
+            <tattoo>
+                <title>Huang Long</title>
+                <explanation>His tattoo is the legendary gold dragon, Huang Long, who lords over the four gods of the cardinal directions, representing Ryuji's ambitions to rule over all of Japan's criminal underworld.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Great antagonist</opinion>
+        </character>
+        <character id="rikiya" alive="no">
+            <name>Rikiya</name>
+            <surname>Shimabukuro</surname>
+            <nicknames>
+                <nickname>Fighting Viper of Okinawa</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Rikiya_Shimabukuro">Rikiya Shimabukuro</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/d/d1/Y3R-Render-Rikiya.png</source>
+                <description>Image of Rikiya Shimabukuro</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Ryudo Family">Captain</role>
+            </roles>
+            <organisation>
+                <name>Tojo Clan</name>
+                <link target="https://yakuza.fandom.com/wiki/Tojo_Clan">Tojo Clan</link>
+            </organisation>
+            <description>
+                A very strong character with an original appearence. Has a punch perm hairstyle. Extremely loyal and connected to the place of his birth, hence why he has never been to the motherland. Met <link target="./characters.html#kiryu">Kiryu</link> in 2009 and became great friends ever since. His tattoo depicts a viper - specifically an <link target="https://en.wikipedia.org/wiki/Protobothrops_flavoviridis" >Okinawan habu</link> - pit viper native to the region.            
+            </description>
+            <tattoo>
+                <title>Okinawan Habu</title>
+                <explanation>Pit viper native to the region.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Huge impact</opinion>
+        </character>
+        <character id="mine" alive="no">
+            <name>Yoshitaka</name>
+            <surname>Mine</surname>
+            <nicknames>
+                <nickname>Safekeeper of the Tojo Clan</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Yoshitaka_Mine">Yoshitaka Mine</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/9/94/Y3R-Render-Mine.png</source>
+                <description>Image of Yoshitaka Mine</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Tojo Clan">Lieutanant/Interim Chairman</role>
+                <role active="no" organisation="Hakuho Clan">Chairman</role>
+                <role active="no" organisation="Nishikiyama Family">Captain</role>
+                <role active="no" organisation="Unnamed Company">Founder/Chairman</role>
+            </roles>
+            <organisation>
+                <name>Tojo Clan</name>
+                <link target="https://yakuza.fandom.com/wiki/Tojo_Clan">Tojo Clan</link>
+            </organisation>
+            <description>
+                Main antagonist of <link target="./games.html#y3">Yakuza 3</link>. An important element of the Tojo Clan's income between 2007 and 2009, gaining him the nickname of the "Safekeeper of the Tojo Clan". A close person to <link target="./characters.html#daigo">Daigo Dojima</link>.
+            </description>
+            <tattoo>
+                <title>Kirin</title>
+                <explanation>A mythical creature said to appear only in the presence of a leader and become protective if a pure person is threatened by a malicious one.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>One of the best written characters</opinion>
+        </character>
+        <character id="akiyama" alive="yes">
+            <name>Shun</name>
+            <surname>Akiyama</surname>
+            <nicknames>
+                <nickname>The Lifeline of Kamurocho</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Shun_Akiyama">Shun Akiyama</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/b/b8/2d_yk_kigae_akiyama00.png</source>
+                <description>Image of Shun Akiyama</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Touto Bank">Employee</role>
+                <role active="yes" organisation="Sky Finance">Founder/CEO</role>
+            </roles>
+            <organisation>
+                <name>Sky Finance</name>
+                <link target="https://yakuza.fandom.com/wiki/Sky_Finance">Sky Finance</link>
+            </organisation>
+            <description>
+                Working alongside his secretary <link target="https://yakuza.fandom.com/wiki/Hana" >Hana</link>. He was a top employee in the <link target="https://yakuza.fandom.com/wiki/Touto_Bank" >Touto Bank</link>, but got sacked due to the charges of embezzlement. Unfairly accused, he soon became homeless. However, due to the bomb explosion in the <link target="https://yakuza.fandom.com/wiki/Millennium_Tower" >Millennium Tower</link>, followed by the ¥10 billion raining down from the sky, Akiyama managed to gather some of the money to try his luck for the second time, with success.
+            </description>
+            <franchise>Yakuza</franchise>
+            <opinion>Not enough appearances</opinion>
+        </character>
+        <character id="tanimura" alive="yes">
+            <name>Masayoshi</name>
+            <surname>Tanimura</surname>
+            <nicknames>
+                <nickname>The Parasite Of Kamurocho</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Masayoshi_Tanimura">Masayoshi Tanimura</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/d/dc/Masayoshi_%28Masa%29_Tanimura.png</source>
+                <description>Image of Masayoshi Tanimura</description>
+            </image>
+            <roles>
+                <role active="yes" organisation="Tokyo Metropolitan Police Department's Community Safety Division">Officer</role>
+            </roles>
+            <organisation>
+                <name>Tokyo Metropolitan Police Department</name>
+                <link target="https://yakuza.fandom.com/wiki/Tokyo_Metropolitan_Police_Department">Tokyo Metropolitan Police Department</link>
+            </organisation>
+            <description>
+                Fairly called "The Parasite Of Kamurocho" due to his poor attitude towards work and open engagement in acts of corruption. However, he is always willingly open to help those in need. Due to his upbringing of mixed descendancy, the man was helping the immigrant children who were left without parents. Masayoshi was even gambling and blackmailing illegal/criminal businesses to help the children in need.
+            </description>
+            <franchise>Yakuza</franchise>
+            <opinion>Forgotten</opinion>
+        </character>
+        <character id="saejima" alive="yes">
+            <name>Taiga</name>
+            <surname>Saejima</surname>
+            <nicknames>
+                <nickname>18-Counts Saejima</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Taiga_Saejima">Taiga Saejima</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/6/62/Taiga_Saejima.png</source>
+                <description>Image of Taiga Saejima</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Saejima Family">Patriarch</role>
+                <role active="no" organisation="Tojo Clan">Lieutanant</role>
+            </roles>
+            <organisation>
+                <name>Tojo Clan</name>
+                <link target="https://yakuza.fandom.com/wiki/Tojo_Clan">Tojo Clan</link>
+            </organisation>
+            <family>
+                <member relation="step-sister">Yasuko Saejima</member>
+            </family>
+            <description>
+                Due to his (in)famous <link target="https://yakuza.fandom.com/wiki/Ueno_Seiwa_Hit">slaying of the eighteen members</link> of the <link target="https://yakuza.fandom.com/wiki/Ueno_Seiwa_Clan">Ueno Seiwa Clan</link> and surviving to receive the death penalty, Saejima earned the nickname "18-Counts Saejima". A great friend of <link target="./characters.html#majima">Goro Majima</link>.
+            </description>
+            <tattoo>
+                <title>Tiger</title>
+                <explanation>His tattoo features a roaring tiger surrounded by bamboo grass. In Buddhism, it is believed that tiger and dragon are equal to each other, hence why <link target="./characters.html#kiryu">Kiryu</link> and Saejima are one of the most powerful yakuza members, yet having opposite traits.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Phenomenal</opinion>
+        </character>
+        <character id="shinada" alive="yes">
+            <name>Tatsuo</name>
+            <surname>Shinada</surname>
+            <nicknames>
+                <nickname>18-Counts Saejima</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Tatsuo_Shinada">Tatsuo Shinada</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/f/f0/2d_yk_j_shinada.png</source>
+                <description>Image of Tatsuo Shinada</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Nagoya Wyverns">Batter</role>
+                <role active="yes" organisation="Self-employed">Nightlife journalist</role>
+            </roles>
+            <description>
+                Shinada was unfairly arrested on suspicion of game fixing and illegal gambling. While he was eventually cleared of all the charges, he was banned for life from professional baseball. He attended Kamuro West High School alongside <link target="./characters.html#daigo">Daigo Dojima</link>. A man with a complicated story, living in poor conditions. However, he seems to enjoy his life.
+            </description>
+            <franchise>Yakuza</franchise>
+            <opinion>Appeared in one game, yet impactful</opinion>
+        </character>
+        <character id="daigo" alive="yes">
+            <name>Daigo</name>
+            <surname>Dojima</surname>
+            <link target="https://yakuza.fandom.com/wiki/Daigo_Dojima">Daigo Dojima</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/5/54/Daigo_D%C5%8Djima_%28Yakuza_4%29.png</source>
+                <description>Image of Daigo Dojima</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Tojo Clan">Sixth Chairman</role>
+            </roles>
+            <organisation>
+                <name>Tojo Clan</name>
+                <link target="https://yakuza.fandom.com/wiki/Tojo_Clan">Tojo Clan</link>
+            </organisation>
+            <family>
+                <member relation="father">Sohei Dojima</member>
+            </family>
+            <description>
+                Once a drunk street thug, Daigo becomes the sixth (and the last) chairman of the <link target="https://yakuza.fandom.com/wiki/Tojo_Clan" >Tojo Clan</link> by the recommendation of <link target="./characters.html#kiryu">Kazuma Kiryu</link>. The son of <link target="https://yakuza.fandom.com/wiki/Sohei_Dojima" >Sohei Dojima</link> represents a new generation of the yakuza. A charismatic and caring character, born to be a leader.
+            </description>
+            <tattoo>
+                <title>Fudo Myoo</title>
+                <explanation>Defender of the Buddhist faith. Represents knowledge and power, thanks to the Kurikara sword. The fire represents the cleansing, while the dragon that surrounds the sword could be a sign of <link target="./characters.html#kiryu">Kiryu's</link> guidance for Daigo over the years.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Perfectly executed</opinion>
+        </character>
+        <character id="ichiban" alive="yes">
+            <name>Ichiban</name>
+            <surname>Kasuga</surname>
+            <nicknames>
+                <nickname>Hero of Yokohama</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Ichiban_Kasuga">Ichiban Kasuga</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/2/28/YLAD_-_Character_Render_-_Ichiban_Kasuga_%282019%29.png</source>
+                <description>Image of Ichiban Kasuga</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Arakawa Family">Member</role>
+                <role active="no" organisation="Hello Work">Employee</role>
+            </roles>
+            <family>
+                <member relation="father">Masumi Arakawa</member>
+                <member relation="mother">Akane Kishida </member>
+            </family>
+            <description>
+                Ichiban became the main protagonist since <link target="https://yakuza.fandom.com/wiki/Yakuza:_Like_a_Dragon" >Yakuza: Like a Dragon</link>. A key member of the Great Dissolution of the <link target="https://yakuza.fandom.com/wiki/Tojo_Clan" >Tojo Clan</link> and the <link target="https://yakuza.fandom.com/wiki/Omi_Alliance" >Omi Alliance</link>.
+            </description>
+            <tattoo>
+                <title>Dragonfish</title>
+                <explanation>The in-between state of a koi fish transforming into a dragon. The legend of Koi states that the koi fish that swims up to the top of the waterfall is rewarded for its resilience by being transformed into a dragon. It is supposed to be a symbol of power, resilience and strength in the times of struggle and trouble.</explanation>
+            </tattoo>
+            <franchise>Yakuza</franchise>
+            <opinion>Conflicted</opinion>
+        </character>
+        <character id="yagami" alive="yes">
+            <name>Takayuki</name>
+            <surname>Yagami</surname>
+            <link target="https://yakuza.fandom.com/wiki/Takayuki_Yagami">Takayuki Yagami</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/2/2b/Takayuki_%28Tak%29_Yagami_02.png</source>
+                <description>Image of Takayuki Yagami</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Genda Law Office">Defense attorney</role>
+                <role active="yes" organisation="Yagami Detective Agency">Director/Private investigator</role>
+            </roles>
+            <organisation>
+                <name>Yagami Detective Agency</name>
+                <link target="https://yakuza.fandom.com/wiki/Yagami_Detective_Agency">Yagami Detective Agency</link>
+            </organisation>
+            <description>
+                Main protagonist of the spin-off series <link target="https://yakuza.fandom.com/wiki/Judgment">Judgment</link>. Works as a private investigator alongside <link target="./characters.html#kaito">Masaharu Kaito</link>. Yagami became a lawyer due to the fact that his own father was one. However, he felt the urge to follow his father under the circumstances of his elders decisions. His father was defending a man accused of strangling an underage girl, who he has proven not guilty. The consequences were real, as the victim's father murdered Yagami's parents and himself. This motivated Yagami to become a lawyer himself and "fix" the unfair reputation. The orphan had a successful career, which led to a similiar situation as in the past. Due to the murder done by his client, Yagami stepped down due to the feeling of guilt. He has started his own private investigative agency, <link target="https://yakuza.fandom.com/wiki/Yagami_Detective_Agency" >Yagami Detective Agency</link>.
+            </description>
+            <franchise>Judgment</franchise>
+            <opinion>Unique protagonist</opinion>
+        </character>
+        <character id="kaito" alive="yes">
+            <name>Masaharu</name>
+            <surname>Kaito</surname>
+            <link target="https://yakuza.fandom.com/wiki/Masaharu_Kaito">Masaharu Kaito</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/3/32/LJ_-_Character_Render_-_Masaharu_Kaito_%28Headshot%29.png</source>
+                <description>Image of Masaharu Kaito</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Matsugane Family">Lieutanant</role>
+                <role active="no" organisation="Charles">Manager</role>
+                <role active="yes" organisation="Yagami Detective Agency">Private investigator</role>
+            </roles>
+            <organisation>
+                <name>Yagami Detective Agency</name>
+                <link target="https://yakuza.fandom.com/wiki/Yagami_Detective_Agency">Yagami Detective Agency</link>
+            </organisation>
+            <description>
+                A fellow friend and co-worker of <link target="./characters.html#yagami">Takayuki Yagami</link>. Due to a robbery in the family's office, he was almost forced to perform <link target="https://en.wikipedia.org/wiki/Yubitsume" >Yubitsume</link>, which was disallowed by Yagami and Matsugane himself. Instead, he was expelled from the family. Shortly after, he has joined the <link target="https://yakuza.fandom.com/wiki/Yagami_Detective_Agency" >Yagami Detective Agency</link>, becomming a private investigator himself.
+            </description>
+            <franchise>Judgment</franchise>
+            <opinion>Perfect "buddy"</opinion>
+        </character>
+        <character id="tatsuya" alive="yes">
+            <name>Tatsuya</name>
+            <surname>Ukyo</surname>
+            <nicknames>
+                <nickname>The Mad Dog of Kamuro</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Tatsuya_Ukyo">Tatsuya Ukyo</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/9/97/Tatsuya_Uky%C5%8D.jpg</source>
+                <description>Image of Tatsuya Ukyo</description>
+            </image>
+            <description>
+                Major character in the spin-off series <link target="./games.html#k1">Kurohyou</link>. Formerly a rowdly youth, gets involved with the <link target="https://yakuza.fandom.com/wiki/Tojo_Clan" >Tojo Clan</link> as a top fighter in their underground coliseum, earning him the nickname "The Mad Dragon of Kamuro".
+            </description>
+            <franchise>Kurohyou</franchise>
+            <opinion>Most unique in the franchise</opinion>
+        </character>
+        <character id="daito" alive="no">
+            <name>Makoto</name>
+            <surname>Daito</surname>
+            <nicknames>
+                <nickname>Red Oni</nickname>
+                <nickname>Emperor of Sotenbori</nickname>
+            </nicknames>
+            <link target="https://yakuza.fandom.com/wiki/Makoto_Daito">Makoto Daito</link>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/a/af/STH_-_Poster.jpg</source>
+                <description>Image of Makoto Daito</description>
+            </image>
+            <roles>
+                <role active="no" organisation="Yashima Entertainment">Founder</role>
+                <role active="no" organisation="Iwaki Family">Member</role>
+                <role active="no" organisation="Yashima Trading Company">Member</role>
+                <role active="no" organisation="Tojo Clan">Founder</role>
+            </roles>
+            <organisation>
+                <name>Tojo Clan</name>
+                <link target="https://yakuza.fandom.com/wiki/Tojo_Clan">Tojo Clan</link>
+            </organisation>
+            <description>
+                Protagonist of <link target="./games.html#sth">STRANGER THAN HEAVEN</link>. Born to an american father and japanese mother.
+            </description>
+            <franchise>STRANGER THAN HEAVEN</franchise>
+            <opinion>Yet to see</opinion>
+        </character>
+    </characters>
+    <games>
+        <game id="y1" type="mainline" global="yes">
+            <title>Yakuza</title>
+            <year>2005</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/c/c0/Y1_-_Logo.png</source>
+                <description>Logo of Yakuza (2005)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza">Yakuza</link>
+            <platforms>
+                PS2
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                The debut release of SEGA's <link target="https://en.wikipedia.org/wiki/Toshihiro_Nagoshi" >Toshihiro Nagoshi</link>. Based in a 1995/2005 Tokyo's fictional entertainment district <link target="https://en.wikipedia.org/wiki/Kamurocho">Kamurocho</link>, we follow the story of young <link target="./characters.html#kiryu">Kiryu Kazuma</link>, who seeks for answers to many mysteries and tragedies. After serving ten years in prison, the man needs to find himself in a changed world of yakuza.
+            </description>
+            <completed>yes</completed>
+            <opinion>Major debut of an aspiring franchise</opinion>
+        </game>
+        <game id="y2" type="mainline" global="yes">
+            <title>Yakuza 2</title>
+            <year>2006</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/0/09/Y2_-_Logo.png</source>
+                <description>Logo of Yakuza 2 (2006)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_2">Yakuza 2</link>
+            <platforms>
+                PS2
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A year after the emotional events of the previous installment, <link target="./characters.html#kiryu">The Dragon of Dojima</link> has to face new challenges, as the great danger arises from Osaka's <link target="https://yakuza.fandom.com/wiki/Omi_Alliance">Omi Alliance</link>. With the help of <link target="./characters.html#daigo">Daigo Dojima</link> and a later addition of <link target="./characters.html#sayama">Kaoru Sayama</link>, they face new threats and enemies, such as the <link target="https://yakuza.fandom.com/wiki/Jingweon_Mafia">Jingweon Mafia</link>. Includes a lot of twists and shocking discoveries.
+            </description>
+            <completed>yes</completed>
+            <opinion>Perfectly written</opinion>
+        </game>
+        <game id="rggk" type="spinoff" global="no">
+            <title>Ryu Ga Gotoku: Kenzan!</title>
+            <year>2008</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/7/7c/RGGK%21_-_Logo.png</source>
+                <description>Ryu Ga Gotoku Kenzan! (2008)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Ryu_Ga_Gotoku_Kenzan!">Ryu Ga Gotoku Kenzan!</link>
+            <platforms>
+                PS3
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                First ever spin-off release from the Yakuza franchise. The game is set in historical <link target="https://yakuza.fandom.com/wiki/Kyoto" >Kyoto</link>, Japan during the Edo period in 1605. The story follows the parts of <link target="https://en.wikipedia.org/wiki/Miyamoto_Musashi" >Miyamoto Musashi</link>'s life. It is one of the two games based on historical figures and heritage of Japan. Kenzan has never been released outside of Japan, which makes it's status even more "iconic".
+            </description>
+            <completed>no</completed>
+        </game>
+        <game id="y3" type="mainline" global="yes">
+            <title>Yakuza 3</title>
+            <year>2009</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/1/1f/Y3_-_Logo.png</source>
+                <description>Logo of Yakuza 3 (2009)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_3">Yakuza 3</link>
+            <platforms>
+                PS3 PS4 PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                Following the events of 2006, <link target="./characters.html#kiryu">Kazuma</link> comes to a conclusion to leave <link target="https://yakuza.fandom.com/wiki/Kamurocho">Kamurocho</link> with his adoptive daugher, <link target="./characters.html#haruka">Haruka</link>. They leave Tokyo for Okinawa, where they open up an orphanage, <link target="https://en.wikipedia.org/wiki/Morning_Glory_Orphanage">Morning Glory</link>. Thrown into a dirty business, the former yakuza must help his friend - <link target="./characters.html#daigo">Daigo Dojima</link> - to stop <link target="./characters.html#mine">Yoshitaka Mine</link> from tragic consequences of his actions.
+            </description>
+            <completed>yes</completed>
+            <opinion>Unique atmosphere</opinion>
+        </game>
+        <game id="y4" type="mainline" global="yes">
+            <title>Yakuza 4</title>
+            <year>2010</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/1/14/Y4_-_Logo.png</source>
+                <description>Logo of Yakuza 4 (2010)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_4">Yakuza 4</link>
+            <platforms>
+                PS3 PS4 PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+                <protagonist ref="akiyama"/>
+                <protagonist ref="tanimura"/>
+                <protagonist ref="saejima"/>
+            </protagonists>
+            <description>
+                A soft reset in the timeline happens with the introduction of three new protagonists: <link target="./characters.html#akiyama">Shun Akiyama</link>, <link target="./characters.html#tanimura">Masayoshi Tanimura</link> and <link target="./characters.html#saejima">Taiga Saejima</link>. Four unique personalities with a lot in common bound together to fight with corrupt and disheartening opponents. Can a washed-up yakuza, money launderer, local detective and prison escapee save <link target="https://en.wikipedia.org/wiki/Kamurocho">Kamurocho</link>?
+            </description>
+            <completed>yes</completed>
+            <opinion>Revolutionary idea of having four protagonists</opinion>
+        </game>
+        <game id="k1" type="spinoff" global="no">
+            <title>Kurohyou: Ryu Ga Gotoku Shinsho</title>
+            <year>2010</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo_thumb/9670c7ffe205da4e538326c9691fa4f2.png</source>
+                <description>Logo of Kurohyou: Ryu Ga Gotoku Shinsho (2010)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Kurohyou:_Ryu_Ga_Gotoku_Shinsho">Kurohyou: Ryu Ga Gotoku Shinsho</link>
+            <platforms>
+                PSP
+            </platforms>
+            <protagonists>
+                <protagonist ref="tatsuya"/>
+            </protagonists>
+            <description>
+                An exclusive release for Sony PlayStation Portable. Just like the previous spin-off, Black Panther was never released outside of Japan. Produced by "Def Jam: Fight For NY"'s AKI Corporation, the game received a similiar gameplay style, focused more on one-on-one brawling, unlike the other Yakuza releases. The game features an original (in contrary with other franchise's releases) set of animated cutscenes.
+            </description>
+            <completed>no</completed>
+        </game>
+        <game id="yds" type="spinoff" global="yes">
+            <title>Yakuza: Dead Souls</title>
+            <year>2011</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo/0a4bcba1b83ac7ae756cbe8ff5aa46fd.png</source>
+                <description>Logo of Yakuza: Dead Souls (2011)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza:_Dead_Souls">Yakuza: Dead Souls</link>
+            <platforms>
+                PS3
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+                <protagonist ref="akiyama"/>
+                <protagonist ref="ryuji"/>
+                <protagonist ref="majima"/>
+            </protagonists>
+            <description>
+                A Sony Play Station 3 exclusive release, who saw a global debut. Dead Souls takes place in a non-canon timeline after the events of <link target="./games.html#y4">Yakuza 4</link>. It features a different style of gameplay - a third-person shooter. Four playable characters: <link target="./characters.html#kiryu">Kiryu Kazuma</link>, <link target="./characters.html#ryuji">Ryuji Goda</link>, <link target="./characters.html#akiyama">Shun Akiyama</link> and <link target="./characters.html#kiryu">Goro Majima</link>. The release follows the story of a zombie apocalypse that revolves around the protagonists trying to keep them and their loved ones safe while putting an end to this great danger.
+            </description>
+            <completed>yes</completed>
+            <opinion>A fun and absurd story focused on an apocalypse-ruined Kamurocho</opinion>
+        </game>
+        <game id="k2" type="spinoff" global="no">
+            <title>Kurohyo 2: Ryu Ga Gotoku Ashura-hen</title>
+            <year>2012</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo/60438b39047b64189d7cc0a6f7dd5df8.png</source>
+                <description>Logo of Kurohyo 2: Ryu Ga Gotoku Ashura-hen (2012)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Kurohyou_2:_Ryu_Ga_Gotoku_Ashura-hen">Kurohyou 2: Ryu Ga Gotoku Ashura-hen</link>
+            <platforms>
+                PSP
+            </platforms>
+            <protagonists>
+                <protagonist ref="tatsuya"/>
+            </protagonists>
+            <description>
+                Sequel of the first <link target="./games.html#k1">Kurohyou</link> game. Just like the previous installment, it is a PSP and Japan exclusive game. Includes the same exact unique features of the previous release.
+            </description>
+            <completed>no</completed>
+        </game>
+        <game id="y5" type="mainline" global="yes">
+            <title>Yakuza 5</title>
+            <year>2012</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/e/e0/Y5_-_Logo.png</source>
+                <description>Logo of Yakuza 5 (2012)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_5">Yakuza 5</link>
+            <platforms>
+                PS3 PS4 PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+                <protagonist ref="akiyama"/>
+                <protagonist ref="haruka"/>
+                <protagonist ref="saejima"/>
+                <protagonist ref="shinada"/>
+            </protagonists>
+            <description>
+                With the addition of <link target="./characters.html#shinada">Tatsuo Shinada</link>, we receive a much deeper and complex story of five protagonsits: <link target="./characters.html#shinada">Tatsuo Shinada</link>, <link target="./characters.html#kiryu">Kiryu Kazuma</link>, <link target="./characters.html#akiyama">Shun Akiyama</link>, <link target="./characters.html#saejima">Taiga Saejima</link> and <link target="./characters.html#haruka">Haruka Sawamura</link>. Possibly one of the most well-written entries on the list. A retired baseballer, former yakuza, money launderer, prisoner and an idol -  will everyone overcome their biggest struggles and achieve their <emphasis>dream</emphasis>?
+            </description>
+            <completed>yes</completed>
+            <opinion>Now with five protagonists!</opinion>
+        </game>
+        <game id="rggi" type="spinoff" global="no">
+            <title>Ryu Ga Gotoku Ishin!</title>
+            <year>2014</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/2/21/RGGI%21_-_Logo.png</source>
+                <description>Logo of Ryu Ga Gotoku Ishin! (2014)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Ryu_Ga_Gotoku_Ishin!">Ryu Ga Gotoku Ishin!</link>
+            <platforms>
+                PS3
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A second release based on historical figures and stories. Japan exclusive, later released globally with the remake titled <link target="./games.html#ladi">Like a Dragon: Ishin!</link>. Ishin focuses on the <link target="https://en.wikipedia.org/wiki/Bakumatsu" >Bakumatsu Period</link> in Japan. The story focuses on the story of <link target="https://yakuza.fandom.com/wiki/Sakamoto_Ryoma" >Sakamoto Ryoma</link>, who seeks justice for the death of his mentor - <link target="https://yakuza.fandom.com/wiki/Yoshida_Toyo" >Yoshida Toyo</link>.
+            </description>
+            <completed>no</completed>
+        </game>
+        <game id="y0" type="mainline" global="yes">
+            <title>Yakuza 0</title>
+            <year>2015</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/7/75/Y0_-_Logo.png</source>
+                <description>Logo of Yakuza 0 (2015)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_0">Yakuza 0</link>
+            <platforms>
+                PS3 PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+                <protagonist ref="majima"/>
+            </protagonists>
+            <description>
+                The series' prequel set in 1988 <link target="https://yakuza.fandom.com/wiki/Kamurocho">Kamurocho</link> and <link target="https://yakuza.fandom.com/wiki/Sotenbori">Sotenbori</link>, following the story of two protagonists: <link target="./characters.html#kiryu">Kiryu Kazuma</link> and <link target="./characters.html#majima">Goro Majima</link>. After being framed with murder, <link target="./characters.html#kiryu">Kiryu</link> leaves the <link target="https://yakuza.fandom.com/wiki/Dojima_Family" >Dojima Family</link> in search of the answer for the complicated story of the <link target="https://yakuza.fandom.com/wiki/Empty_Lot" >Empty Lot</link>. The <link target="./characters.html#majima">one-eyed assassin</link> however tries to repair the damage he has done in the past. He receives a chance to fix his mistakes, but everything changes once he meets the victim.
+            </description>
+            <completed>yes</completed>
+            <opinion>A flashback to the origins of Kiryu Kazuma and Majima Goro</opinion>
+        </game>
+        <game id="yk1" type="mainline" global="yes">
+            <title>Yakuza Kiwami</title>
+            <year>2016</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/e/ef/YK1_-_Logo.png</source>
+                <description>Logo of Yakuza Kiwami (2016)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_Kiwami">Yakuza Kiwami</link>
+            <platforms>
+                PS3 PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A remake of the 2005 release of <link target="./games.html#y1">Yakuza</link>, featuring a whole new game engine and refreshed arrangement. With the addition of a huge amount of mechanics, the game receives a whole new life to itself.
+            </description>
+            <completed>yes</completed>
+            <opinion>Faithful remake of the original debut game with great additions</opinion>
+        </game>
+        <game id="y6" type="mainline" global="yes">
+            <title>Yakuza 6</title>
+            <year>2016</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/0/00/Y6_-_Logo.png</source>
+                <description>Logo of Yakuza 6 (2016)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_6">Yakuza 6</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A personal story of <link target="./characters.html#kiryu">Kiryu Kazuma</link>, who seeks justice for his adoptive daughter - <link target="./characters.html#haruka">Haruka Sawamura</link> - who was a victim of a dramatic car accident. With shocking discoveries, the <link target="./characters.html#kiryu">Dragon of Dojima</link> has to face unexpected challenges and twists, including the discovery of a government secret, which consequences would be irreverseble.
+            </description>
+            <completed>yes</completed>
+            <opinion>A very deep and emotional story line</opinion>
+        </game>
+        <game id="yk2" type="mainline" global="yes">
+            <title>Yakuza Kiwami 2</title>
+            <year>2017</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo/60438b39047b64189d7cc0a6f7dd5df8.png</source>
+                <description>Logo of Yakuza Kiwami 2 (2017)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_Kiwami_2">Yakuza Kiwami 2</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                After the success of the previous remake, the decision has been made to release a refreshed version of the 2006 <link target="./games.html#y2">Yakuza 2</link>. However, this time RGG has decided to "play it safe" with minor and soft changes in contrary with the first <link target="./games.html#yk1">Kiwami</link>. Built on the recently introduced Dragon Engine.
+            </description>
+            <completed>yes</completed>
+            <opinion>A safe play with poor adaptations, unsatisfying remake</opinion>
+        </game>
+        <game id="jg" type="spinoff" global="yes">
+            <title>Judgment</title>
+            <year>2018</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/3/30/J1_-_Logo.png</source>
+                <description>Logo of Judgment (2018)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Judgment">Judgment</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="yagami"/>
+            </protagonists>
+            <description>
+                A debut release of the successful spin-off series. Focusing on the life of a private detective, <link target="./characters.html#yagami">Takayuki Yagami</link>, who tries to solve the mystery of the "the Mole" - a murderer and threat to <link target="https://yakuza.fandom.com/wiki/Kamurocho" >Kamurocho</link>. On his way to truth, <link target="./characters.html#yagami">Yagami</link> finds shocking and disstressing discoveries.
+            </description>
+            <completed>yes</completed>
+            <opinion>Huge debut of a greatly written "side" project</opinion>
+        </game>
+        <game id="y7" type="mainline" global="yes">
+            <title>Yakuza: Like a Dragon</title>
+            <year>2020</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/0/0a/YLAD_-_Logo.png</source>
+                <description>Logo of Yakuza: Like a Dragon (2020)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza:Like_a_Dragon">Yakuza: Like a Dragon</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="ichiban"/>
+            </protagonists>
+            <description>
+                A soft reboot of the series, with a new protagonist <link target="./characters.html#ichiban">Ichiban Kasuga</link> and a new gameplay style based on the J-RPG (turn-based roleplay) genre. The story follows a young man - <link target="./characters.html#ichiban">Ichiban Kasuga</link> - born and raised in a soapland in Kamurocho. After his life was saved by <link target="https://yakuza.fandom.com/wiki/Masumi_Arakawa" >Masumi Arakawa</link>, a patriarch of the <link target="https://yakuza.fandom.com/wiki/Arakawa_Family">Arakawa Family</link>, young man decides to dedicate his life to serve his "hero". After being asked to to take the fall for <link target="https://yakuza.fandom.com/wiki/Jo_Sawashiro">Jo Sawashiro</link> - family's captain - <link target="./characters.html#ichiban">Kasuga</link> comes to a conclusion to repay his debt. After serving eighteen years in prison, he faces confusing changes in the world - including the <link target="https://yakuza.fandom.com/wiki/Omi_Alliance">Omi Alliance</link> control of Tokyos' <link target="https://yakuza.fandom.com/wiki/Kamurocho" >Kamurocho</link>. With new friends on his road, <link target="./characters.html#ichiban">Ichiban</link> has to find the reason of all his troubles.
+            </description>
+            <completed>yes</completed>
+            <opinion>Soft (and successful) reboot of the franchise, introducing and focusing on a new protagonist</opinion>
+        </game>
+        <game id="jg2" type="spinoff" global="yes">
+            <title>Lost Judgment</title>
+            <year>2021</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/0/05/LJ_-_Logo.png</source>
+                <description>Logo of Lost Judgment (2021)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Lost_Judgment">Lost Judgment</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="yagami"/>
+            </protagonists>
+            <description>
+                The sequel to the successful debut of <link target="./games.html#jg1">Judgment</link>. This time, <link target="./characters.html#yagami">Yagami</link>, tries to uncover the dark story of <link target="https://yakuza.fandom.com/wiki/Seiryo_High_School" >Seiryo High School</link>. With tragic and visual discoveries, detective has to face the brutality of the world.
+            </description>
+            <completed>yes</completed>
+            <opinion>One of the best projects from RGG Studios</opinion>
+        </game>
+        <game id="tkf" type="spinoff" global="yes">
+            <title>The Kaito Files</title>
+            <year>2022</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo_thumb/ec3cd5de78196a9a6c8bd1c020f7f43e.png</source>
+                <description>Logo of Lost Judgment: The Kaito Files (2022)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Lost_Judgment#The_Kaito_Files">The Kaito Files</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kaito"/>
+            </protagonists>
+            <description>
+                A downloadable content to <link target="./games.html#jg2">Lost Judgment</link>. This time, we follow the story of <link target="./characters.html#kaito">Masaharu Kaito</link> - co-worker of <link target="./characters.html#yagami">Yagami</link> - who searches for <link target="https://yakuza.fandom.com/wiki/Mikiko_Sadamoto" >Mikiko Sadamoto</link> alongside his alleged son, <link target="https://yakuza.fandom.com/wiki/Jun_Sadamoto" >Jun Sadamoto</link>.
+            </description>
+            <completed>yes</completed>
+            <opinion>Great, yet short content addition for Lost Judgment</opinion>
+        </game>
+        <game id="ladi" type="spinoff" global="yes">
+            <title>Like a Dragon: Ishin!</title>
+            <year>2023</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/3/37/LADI%21_-_Logo.png</source>
+                <description>Logo of Like a Dragon: Ishin! (2023)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Ishin!">Like a Dragon: Ishin!</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A remake of the 2014 <link target="./games.html#rggi">Ryu Ga Gotoku Ishin!</link>. The game has been boosted with a few major gameplay changes, including multiple fighting styles, virtue system and special attributes.
+            </description>
+            <completed>yes</completed>
+            <opinion>A remake of a 2014 version of the game with a few unnecessary mechanics</opinion>
+        </game>
+        <game id="ladg" type="spinoff" global="yes">
+            <title>Like a Dragon Gaiden: The Man Who Erased His Name</title>
+            <year>2023</year>
+            <image>
+                <source>https://cdn2.steamgriddb.com/logo/f3dcc63e62d341ce8ab1f53c40cf230c.png</source>
+                <description>Like a Dragon Gaiden: The Man Who Erased His Name (2020)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Like_a_Dragon_Gaiden:_The_Man_Who_Erased_His_Name">Like a Dragon Gaiden: The Man Who Erased His Name</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="ichiban"/>
+            </protagonists>
+            <description>
+                An interquel between <link target="./games.html#y7">Yakuza: Like a Dragon</link> and <link target="./games.html#y8">Like a Dragon: Infinite Wealth</link>, focusing on the story of <link target="characters.html#kiryu">Joryu</link>. The purpose of this release is to explain the further story and reasoning behind the "death" of <link target="characters.html#kiryu">Kiryu Kazuma</link>. The game's finale connects with the finale of <link target="./games.html#y7">Yakuza: Like a Dragon</link>. An emotional rollercoaster.
+            </description>
+            <completed>yes</completed>
+            <opinion>An emotional add-on to the story of Yakuza: Like a Dragon</opinion>
+        </game>
+        <game id="y8" type="mainline" global="yes">
+            <title>Like a Dragon: Infinite Wealth</title>
+            <year>2024</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/5/54/LAD8_-_Logo.png</source>
+                <description>Logo of Like a Dragon: Infinite Wealth (2024)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Infinite_Wealth">Like a Dragon: Infinite Wealth</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="ichiban"/>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A sequel of <link target="./games.html#ylad">Yakuza: Like a Dragon</link> with dual protagonists: <link target="./characters.html#kiryu">Kiryu Kazuma</link> and <link target="./characters.html#ichiban">Ichiban Kasuga</link>. With <link target="./characters.html#ichiban">Ichiban</link> seeking his mother, he travels to Honolulu, where he meets <link target="./characters.html#kiryu">Kazuma</link>. With similiar, yet different objectives, they connect their powers and help each other out. The grand finale consists of <link target="./characters.html#ichiban">Kasuga</link> fighting inequality and a great danger, while a terminally ill <link target="./characters.html#kiryu">Kiryu</link> stands face-to-face with his past. Probably the largest storyline in the series.
+            </description>
+            <completed>yes</completed>
+            <opinion>Connecting two protagonists and two generations into a one, major happening</opinion>
+        </game>
+        <game id="ladpyih" type="spinoff" global="yes">
+            <title>Like a Dragon: Pirate Yakuza in Hawaii</title>
+            <year>2025</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/b/b9/LADPYIH_-_Logo.png</source>
+                <description>Logo of Like a Dragon: Pirate Yakuza in Hawaii (2025)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Like_a_Dragon:_Pirate_Yakuza_in_Hawaii">Like a Dragon: Pirate Yakuza in Hawaii</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="majima"/>
+            </protagonists>
+            <description>
+                A spin-off focusing on the confusing story of <link target="./characters.html#majima">Goro Majima</link>, who suffers from amnesia. The game is somewhat connected to the story of the previous major release - <link target="./games.html#y8">Like a Dragon: Infinite Wealth</link>.
+            </description>
+            <completed>yes</completed>
+            <opinion>An enjoyable side game with a bare connection to the main plot</opinion>
+        </game>
+        <game id="yk3" type="mainline" global="yes">
+            <title>Yakuza Kiwami 3</title>
+            <year>2026</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/a/ae/YK3_-_Logo.svg</source>
+                <description>Logo of Yakuza Kiwami 3 (2026)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Yakuza_Kiwami_3">Yakuza Kiwami 3</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="kiryu"/>
+            </protagonists>
+            <description>
+                A controversial remake of the 2009 <link target="./games.html#y3">Yakuza 3</link>, which received a modern engine with it's revelations. The game received mixed-to-negative opinions due to a massive change in the storyline, including a few recasts. The game came out with an additional "mini-game", <link target="./games.html#dt">Dark Ties</link>.
+            </description>
+            <completed>yes</completed>
+            <opinion>Unsatysfing and unneccessary changes in the plot</opinion>
+        </game>
+        <game id="dt" type="mainline" global="yes">
+            <title>Dark Ties</title>
+            <year>2026</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/f/f1/DT_-_Logo.svg</source>
+                <description>Logo of Dark Ties (2026)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Dark_Ties">Dark Ties</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="mine"/>
+            </protagonists>
+            <description>
+                A bonus game included with <link target="./games.html#yk3">Yakuza Kiwami 3</link>, focusing on the main game's antagonist - <link target="./characters.html#mine">Yoshitaka Mine</link> - which is the main protagonist of this product. The release explains the backstory of the main villain, specifically before the main game's timeline. The finale connects with the main game's finale. 
+            </description>
+            <completed>yes</completed>
+            <opinion>A small, bonus game showing the backstory of Yakuza Kiwami 3 main antagonist, Yoshitaka Mine</opinion>
+        </game>
+        <game id="STH" type="spinoff" global="yes">
+            <title>STRANGER THAN HEAVEN</title>
+            <year>2027</year>
+            <image>
+                <source>https://static.wikia.nocookie.net/yakuza/images/4/4f/Logo_stranger-than-heaven.svg</source>
+                <description>Logo of STRANGER THAN HEAVEN (2027)</description>
+            </image>
+            <link target="https://yakuza.fandom.com/wiki/Stranger_Than_Heaven">STRANGER THAN HEAVEN</link>
+            <platforms>
+                PS4 PS5 X360 XONE PC
+            </platforms>
+            <protagonists>
+                <protagonist ref="daito"/>
+            </protagonists>
+            <description>
+                An upcoming major release, serving as a possible prequel to the whole <link target="https://yakuza.fandom.com/wiki/Like_a_Dragon" >Yakuza / Like a Dragon</link> series. Currently, we know that the game will feature five cities: <link target="https://en.wikipedia.org/wiki/Kokurakita-ku,_Kitaky%C5%ABsh%C5%AB" >Kokura (1915)</link>, <link target="https://en.wikipedia.org/wiki/Kure,_Hiroshima" >Kure (1929)</link>, <link target="https://en.wikipedia.org/wiki/Minami-ku_(Sakai)" >Minami (1943)</link>, <link target="https://en.wikipedia.org/wiki/Atami" >Atami (1951)</link>, <link target="https://en.wikipedia.org/wiki/Shinjuku" >Shinjuku (1965)</link>. We follow the story of a half-Japanese boy named Makoto Daito. With the story spanning over 60 years of action, it seems to be the longest-paced game from the studio.  
+            </description>
+            <completed>no</completed>
+            <opinion>Looks promising pre-release</opinion>
+        </game>
+    </games>
+    <gallery>
+        <image id="y1">
+            <source>https://static.wikia.nocookie.net/yakuza/images/f/f4/Wallpaper4_yakuza_8386469407_o.jpg</source>
+            <description>Japanese poster of Yakuza, featuring Kazuma</description>
+        </image>
+        <image id="y2">
+            <source>https://static.wikia.nocookie.net/yakuza/images/5/5a/Newyear_1280.jpg</source>
+            <description>Official art of Yakuza 2, featuring Kazuma and Ryuji</description>
+        </image>
+        <image id="rggk">
+            <source>https://static.wikia.nocookie.net/yakuza/images/a/aa/Kenzan_kiryuv01l.jpg</source>
+            <description>Art of Kenzan! featuring Kiryu Kazumanosuke</description>
+        </image>
+        <image id="y3">
+            <source>https://static.wikia.nocookie.net/yakuza/images/7/76/Pic02.png</source>
+            <description>Official art featuring the main characters of Yakuza 3</description>
+        </image>
+        <image id="y4">
+            <source>https://static.wikia.nocookie.net/yakuza/images/6/60/8-100P61KH1.png</source>
+            <description>The four Yakuza</description>
+        </image>
+        <image id="k1">
+            <source>https://static.wikia.nocookie.net/yakuza/images/f/f4/Wallpaper4_yakuza_8386469407_o.jpg</source>
+            <description>Tatsuya Ukyo of Kurohyou</description>
+        </image>
+        <image id="yds">
+            <source>https://static.wikia.nocookie.net/yakuza/images/c/c1/Twitter_04bg.jpg</source>
+            <description>Yakuza Dead Souls promotional Twitter poster</description>
+        </image>
+        <image id="k2">
+            <source>https://static.wikia.nocookie.net/yakuza/images/1/1a/Wp01dh_1920_1200.jpg</source>
+            <description>Promotional poster of Kurohyou 2 featuring Tatsuya Ukyo</description>
+        </image>
+        <image id="y5">
+            <source>https://static.wikia.nocookie.net/yakuza/images/8/8e/Yakuza5_screens2_0001_8391602680_o.jpg</source>
+            <description>A screenshot from Yakuza 5, featuring Goro Majima and Taiga Saejima</description>
+        </image>
+        <image id="rggi">
+            <source>https://static.wikia.nocookie.net/yakuza/images/0/0d/Sakamoto_heading_home.png</source>
+            <description>Sakamoto Ryoma going back home in RGG: Ishin!</description>
+        </image>
+        <image id="y0">
+            <source>https://static.wikia.nocookie.net/yakuza/images/2/22/20190727232948_1.jpg</source>
+            <description>A screenshot from Yakuza 0, featuring Akira Nishikiyama and Kiryu Kazuma</description>
+        </image>
+        <image id="yk1">
+            <source>https://static.wikia.nocookie.net/yakuza/images/9/93/Yakuza_kiwami_entete.jpg</source>
+            <description>Screenshot taken from the install screen of Yakuza Kiwami, featuring Akira Nishikiyama and Kiryu Kazuma</description>
+        </image>
+        <image id="y6">
+            <source>https://static.wikia.nocookie.net/yakuza/images/f/f5/Y6Review_001-noscale.jpg</source>
+            <description>Takumi Someya and Kiryu Kazuma in Yakuza 6</description>
+        </image>
+        <image id="yk2">
+            <source>https://static.wikia.nocookie.net/yakuza/images/5/58/927380_screenshots_20200229202847_1.jpg</source>
+            <description>Kaoru Sayama and Ryuji Goda in Yakuza Kiwami 2</description>
+        </image>
+        <image id="jg1">
+            <source>https://static.wikia.nocookie.net/yakuza/images/2/24/J1_Yagami.png</source>
+            <description>Takayuki Yagami in the remastered version of Judgment</description>
+        </image>
+        <image id="y7">
+            <source>https://static.wikia.nocookie.net/yakuza/images/6/61/YLAD_-_Steam_Trading_Card_-_The_Party.jpg</source>
+            <description>'The Party' poster taken from Steam trading card of Yakuza: Like a Dragon</description>
+        </image>
+        <image id="jg2">
+            <source>https://static.wikia.nocookie.net/yakuza/images/4/43/LJ_Opening_Yagami_%281%29.jpg</source>
+            <description>Takayuki Yagami in Lost Judgment</description>
+        </image>
+        <image id="ladi">
+            <source>https://static.wikia.nocookie.net/yakuza/images/c/c7/LADI%21_-_Character_Gallery_-_Sakamoto_Ryoma_01.png</source>
+            <description>Sakamoto Ryoma seen in the trailer of Like a Dragon: Ishin!</description>
+        </image>
+        <image id="ladg">
+            <source>https://static.wikia.nocookie.net/yakuza/images/a/ac/Kiryu_fighting_with_Agent_style.png</source>
+            <description>Joryu using Agent style in Like a Dragon Gaiden: The Man Who Erased His Name</description>
+        </image>
+        <image id="y8">
+            <source>https://static.wikia.nocookie.net/yakuza/images/7/73/IW_Saejima_Majima_Daigo.jpg</source>
+            <description>Taiga Saejima, Majima Goro and Daigo Dojima in Like a Dragon: Infinite Wealth</description>
+        </image>
+        <image id="ladpyih">
+            <source>https://static.wikia.nocookie.net/yakuza/images/0/0e/Captain_Majima_Steam_Background.png</source>
+            <description>Steam background featuring Goro Majima of Like a Dragon: Pirate Yakuza in Hawaii</description>
+        </image>
+        <image id="yk3">
+            <source>https://static.wikia.nocookie.net/yakuza/images/1/11/Kiryu_and_kids_Kiwami_3.jpg</source>
+            <description>Kiryu Kazuma with the children in Yakuza Kiwami 3</description>
+        </image>
+        <image id="dt">
+            <source>https://static.wikia.nocookie.net/yakuza/images/e/e1/YK3_Mine_beats_Kanda.jpg</source>
+            <description>Yoshitaka Mine and Tsuyoshi Kanda in Yakuza Kiwami 3/Dark Ties</description>
+        </image>
+        <image id="sth">
+            <source>https://static.wikia.nocookie.net/yakuza/images/b/bd/1965_Stranger_Than_Heaven.jpg</source>
+            <description>Promotional art of STRANGER THAN HEAVEN, featuring Kamurocho (Shinjuku)</description>
+        </image>
+    </gallery>
+</project>

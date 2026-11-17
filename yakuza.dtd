@@ -1,0 +1,68 @@
+<!ENTITY % logicType "yes | no">
+<!ENTITY % releaseType "mainline | spinoff">
+
+<!ELEMENT description (#PCDATA | link | emphasis)*>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT project (title, introduction, soundtrack, symbols, morals, characters, games, gallery)>
+<!ELEMENT introduction (text, image)>
+<!ELEMENT soundtrack (image, text)>
+<!ELEMENT symbols (text, image)>
+<!ELEMENT morals (image, text)>
+<!ELEMENT characters (character+)>
+<!ELEMENT games (game+)>
+<!ELEMENT gallery (image+)>
+
+<!ELEMENT character (name, surname, nicknames?, link, image, roles?, organisation?, family?, description, tattoo?, franchise, opinion?)>
+<!ATTLIST character
+    id ID #REQUIRED
+    alive (%logicType;) "yes"
+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT nicknames (nickname+)>
+<!ELEMENT nickname (#PCDATA)>
+<!ELEMENT roles (role+)>
+<!ELEMENT role (#PCDATA)>
+<!ATTLIST role
+    active (%logicType;) "no"
+    organisation CDATA #REQUIRED
+>
+<!ELEMENT organisation (name, link)>
+<!ELEMENT family (member+)>
+<!ELEMENT member (#PCDATA)>
+<!ATTLIST member
+    relation CDATA #REQUIRED
+>
+<!ELEMENT tattoo (title, explanation)>
+<!ELEMENT explanation (#PCDATA | link)*>
+<!ELEMENT franchise (#PCDATA)>
+<!ELEMENT opinion (#PCDATA)>
+
+<!ELEMENT game (title, year, image, link, platforms, protagonists, description, completed, opinion?)>
+<!ATTLIST game
+    id ID #REQUIRED
+    type (%releaseType;) "mainline"
+    global (%logicType;) "yes"
+>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT platforms (#PCDATA)>
+<!ELEMENT protagonists (protagonist+)>
+<!ELEMENT protagonist (#PCDATA)>
+<!ATTLIST protagonist
+    ref IDREF #REQUIRED
+>
+<!ELEMENT completed (#PCDATA)>
+
+<!ELEMENT text (#PCDATA | link)*>
+<!ELEMENT image (source, description)>
+<!ATTLIST image
+    id IDREF #IMPLIED
+>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link
+    target CDATA #REQUIRED
+>
+
+<!ELEMENT emphasis (#PCDATA)>

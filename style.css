@@ -313,7 +313,7 @@ nav a:hover{
     align-items: center;
     font-weight: 600;
     font-size: 40px;
-    gap: 60px;
+    gap: 10vw;
 }
 
 .main_section img{
@@ -498,6 +498,9 @@ th a:hover{
     }
     ::-webkit-scrollbar {
         width: 4px;
+    }
+    .photos_grid{
+        gap: 0;
     }
 }
 
